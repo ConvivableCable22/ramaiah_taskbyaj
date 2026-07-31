@@ -1,0 +1,26 @@
+.site-footer{
+    background:var(--footer);
+    color:white;
+    text-align:center;
+    padding:25px;
+    transition:.3s;
+}
+
+.site-footer p{
+    margin:0;
+}
+
+.footer-links{
+    margin-top:15px;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:var(--accent);
+}

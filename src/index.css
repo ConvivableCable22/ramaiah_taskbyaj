@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:#ffffff;
+    color:#2C3E50;
+    line-height:1.6;
+    overflow-x:hidden;
+}
+
+main{
+    width:100%;
+}
+
+section{
+    padding:55px 8%;
+}
+
+section h2{
+    text-align:center;
+    font-size:2.2rem;
+    margin-bottom:25px;
+    position:relative;
+}
+
+
+section h2::after{
+    content:"";
+    width:60px;
+    height:4px;
+    background:#F18F01;
+    display:block;
+    margin:12px auto 0;
+    border-radius:5px;
+}
+
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+
+button{
+    font-family:inherit;
+}
+
+
+/* Dark Mode */
+
+body.dark{
+    background:#121212;
+    color:white;
+}
+
+
+body.dark section{
+    background:#121212;
+    color:white;
+}
+
+:root{
+  --primary:#21618C;
+  --accent:#F18F01;
+  --text:#2C3E50;
+  --white:#FFFFFF;
+  --light:#F4F6F8;
+  --navbar:#21618C;
+  --footer:#21618C;
+  --card:#FFFFFF;
+}
+
+body[data-theme="dark"]{
+  --primary:#4EA1FF;
+  --accent:#F18F01;
+  --text:#FFFFFF;
+  --white:#121212;
+  --light:#1E293B;
+  --navbar:#0F172A;
+  --footer:#0F172A;
+  --card:#1E293B;
+
+  background:#121212;
+  color:#FFFFFF;
+}

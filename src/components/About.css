@@ -1,0 +1,92 @@
+.about-section{
+    padding:60px 8%;
+    background:var(--white);
+    transition:0.3s;
+}
+
+.about-section h2{
+    text-align:center;
+    color:var(--primary);
+    margin-bottom:35px;
+}
+
+.about-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.profile-figure{
+    text-align:center;
+}
+
+.profile-figure img{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid var(--accent);
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.profile-figure figcaption{
+    margin-top:15px;
+    font-weight:600;
+    color:var(--text);
+}
+
+.about-text{
+    flex:1;
+    max-width:650px;
+    color:var(--text);
+    line-height:1.8;
+}
+
+.about-text p{
+    margin-bottom:18px;
+    text-align:justify;
+}
+
+/* ---------- DARK MODE ---------- */
+
+body[data-theme="dark"] .about-section{
+    background:#121212;
+}
+
+body[data-theme="dark"] .about-section h2{
+    color:#ffffff;
+}
+
+body[data-theme="dark"] .about-text{
+    color:#ffffff;
+}
+
+body[data-theme="dark"] .about-text p{
+    color:#ffffff;
+}
+
+body[data-theme="dark"] .profile-figure figcaption{
+    color:#ffffff;
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:900px){
+
+    .about-content{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about-text{
+        text-align:left;
+    }
+
+    .about-text p{
+        text-align:left;
+    }
+
+}

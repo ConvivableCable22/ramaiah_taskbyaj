@@ -1,0 +1,158 @@
+.hero-section{
+    min-height:80vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 8%;
+    gap:50px;
+}
+
+.hero-left{
+    flex:1;
+}
+
+.hero-greeting{
+    color:var(--accent);
+    font-size:1.2rem;
+    font-weight:600;
+    margin-bottom:12px;
+}
+
+.hero-left h1{
+    font-size:4rem;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:10px;
+}
+
+.hero-left span{
+    color:var(--accent);
+}
+
+.hero-left h2{
+    font-size:2rem;
+    color:var(--primary);
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+.hero-description{
+    max-width:650px;
+    font-size:1.1rem;
+    line-height:1.8;
+    margin-bottom:35px;
+    color:var(--text);
+    text-align:justify;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:12px 24px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:var(--primary);
+    color:white;
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+}
+
+.btn-secondary{
+    background:var(--accent);
+    color:white;
+}
+
+.btn-secondary:hover{
+    transform:translateY(-3px);
+}
+
+.btn-outline{
+    border:2px solid var(--primary);
+    color:var(--primary);
+    background:transparent;
+}
+
+.btn-outline:hover{
+    background:var(--primary);
+    color:white;
+}
+
+.hero-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-right img{
+    width:380px;
+    height:380px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid var(--primary);
+    box-shadow:0 10px 35px rgba(0,0,0,.15);
+}
+
+/* Dark Mode */
+
+body[data-theme="dark"] .hero-description{
+    color:#d1d5db;
+}
+
+body[data-theme="dark"] .btn-outline{
+    border-color:white;
+    color:white;
+}
+
+body[data-theme="dark"] .btn-outline:hover{
+    background:white;
+    color:#121212;
+}
+
+body[data-theme="dark"] .hero-right img{
+    border-color:var(--accent);
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.hero-section{
+    flex-direction:column-reverse;
+    text-align:center;
+    padding:40px 6%;
+}
+
+.hero-left h1{
+    font-size:2.8rem;
+}
+
+.hero-left h2{
+    font-size:1.6rem;
+}
+
+ .hero-description{
+        text-align:left;
+        margin:0 auto 30px;
+    }
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.hero-right img{
+    width:280px;
+    height:280px;
+}
+
+}
