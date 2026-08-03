@@ -1,50 +1,67 @@
 # 🌐 Personal Portfolio Website
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, certifications, and achievements as an aspiring **AI/ML Engineer** and **Web Developer**.
+This repository contains my **Personal Portfolio Website**, developed as part of my internship at **Ramaiah Skills Academy**. The project demonstrates my ability to design and develop a responsive, user-friendly portfolio using modern front-end web technologies.
 
 🔗 **Live Demo:** https://portfoliobyaj.netlify.app/
 
----
-
-## 📖 About
-
-This portfolio was built to provide a professional overview of my technical skills, projects, education, and accomplishments. It is fully responsive and designed with a modern user interface to deliver a seamless experience across devices.
+🔗 **GitHub Repository:** https://github.com/ConvivableCable22/ramaiah_taskbyaj
 
 ---
 
-## ✨ Features
+# 📖 Project Overview
 
-- 🎨 Clean and modern UI
-- 📱 Fully responsive design
-- 🌙 Dark/Light mode toggle
-- 🧑‍💻 About Me section
-- 💼 Projects showcase
-- 🚀 Skills section
-- 📊 Skills proficiency table
-- 🏆 Certifications & Achievements
-- 📄 Resume download
-- 📬 Contact section
-- 🔝 Back-to-top button
-- ⚡ Smooth scrolling and interactive animations
+The objective of this internship project was to build a professional portfolio website that showcases my technical skills, projects, achievements, certifications, and contact information while following modern web development practices.
+
+The website is fully responsive, includes a dark mode feature, and provides an intuitive user experience across desktop, tablet, and mobile devices.
 
 ---
 
-## 🛠️ Tech Stack
+# 🎯 Internship Objectives
+
+* Develop a responsive personal portfolio website.
+* Apply HTML, CSS, and JavaScript concepts in a real-world project.
+* Create a clean and accessible user interface.
+* Implement interactive features to enhance user experience.
+* Deploy the project using Netlify.
+* Manage source code using Git and GitHub.
+
+---
+
+# ✨ Features
+
+* Responsive design for all screen sizes
+* Dark/Light mode toggle
+* Interactive navigation
+* About Me section
+* Skills showcase
+* Skills proficiency table
+* Projects section
+* Certifications & Achievements
+* Resume download
+* Contact section
+* Smooth scrolling and animations
+* Back-to-top button
+
+---
+
+# 🛠️ Technologies Used
 
 ### Frontend
-- HTML5
-- CSS3
-- JavaScript (ES6)
 
-### Tools
-- Visual Studio Code
-- Git
-- GitHub
-- Netlify
+* HTML5
+* CSS3
+* JavaScript (ES6)
+
+### Development Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+* Netlify
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 ramaiah_taskbyaj/
@@ -55,83 +72,87 @@ ramaiah_taskbyaj/
 ├── assets/
 │   ├── images/
 │   ├── icons/
-│   └── resume.pdf
+│   └── documents/
 └── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🚀 How to Run
 
-### Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/ConvivableCable22/ramaiah_taskbyaj.git
 ```
 
-### Navigate into the project
+2. Navigate to the project directory
 
 ```bash
 cd ramaiah_taskbyaj
 ```
 
-### Run the project
-
-Simply open `index.html` in your browser, or use the **Live Server** extension in VS Code.
+3. Open `index.html` in your browser or run the project using the **Live Server** extension in Visual Studio Code.
 
 ---
 
-## 📸 Website Sections
+# 📋 Website Sections
 
-- 🏠 Home
-- 👤 About
-- 💡 Skills
-- 💼 Projects
-- 📜 Certifications
-- 🏆 Achievements
-- 📄 Resume
-- 📬 Contact
-
----
-
-## 📈 Future Enhancements
-
-- React.js version
-- Project filtering
-- Blog section
-- Backend-powered contact form
-- More animations
-- Multi-language support
-- Performance optimization
+* Home
+* About
+* Skills
+* Projects
+* Certifications
+* Achievements
+* Resume
+* Contact
 
 ---
 
-## 🤝 Connect With Me
+# 📚 Learning Outcomes
 
-🌐 Portfolio: https://portfoliobyaj.netlify.app/
+During this internship project, I gained practical experience in:
 
-💼 LinkedIn: https://www.linkedin.com/in/arnavjhawar22
-
-💻 GitHub: https://github.com/ConvivableCable22
-
----
-
-## ⭐ Show Your Support
-
-If you like this project, consider giving it a ⭐ on GitHub!
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. Feel free to fork and modify it for learning purposes.
+* Responsive Web Design
+* HTML5 Semantic Elements
+* CSS Flexbox and Grid
+* JavaScript DOM Manipulation
+* Dark Mode Implementation
+* UI/UX Design Principles
+* Git Version Control
+* GitHub Repository Management
+* Website Deployment using Netlify
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Internship Information
+
+**Organization:** Ramaiah Skills Academy
+
+**Project:** Personal Portfolio Website
+
+**Intern Role:** Web Development Intern
+
+---
+
+# 🤝 Connect With Me
+
+**Portfolio:** https://portfoliobyaj.netlify.app/
+
+**LinkedIn:** https://www.linkedin.com/in/arnavjhawar22
+
+**GitHub:** https://github.com/ConvivableCable22
+
+---
+
+# 📄 License
+
+This project was developed as part of the internship program at **Ramaiah Skills Academy** for educational and learning purposes.
+
+---
+
+### Developed by
 
 **Arnav Jhawar**
 
-AI/ML Engineering Student | Web Developer | Lifelong Learner
-
-Made with ❤️ using HTML, CSS & JavaScript.
+AI/ML Engineering Student | Web Developer
