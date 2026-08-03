@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Portfolio Website
 
 This repository contains my **Personal Portfolio Website**, developed as part of my internship at **Ramaiah Skills Academy**. The project demonstrates my ability to design and develop a responsive, user-friendly portfolio using modern front-end web technologies.
 
